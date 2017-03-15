@@ -12,6 +12,9 @@ library(ggplot2)
 PEST06 <- read_excel("~/Desktop/Pesticides/data/PEST06.xlsx", 
                      sheet = "List")
 
+#read_excel("W:/lab/CHEMISTRY/Technical Support Projects/Pesticide Compilation Data/data/PEST06.xlsx", 
+#           sheet = "List")
+
 PEST08 <- read_excel("~/Desktop/Pesticides/data/PEST08.xlsx", 
                      sheet = "List")
 
