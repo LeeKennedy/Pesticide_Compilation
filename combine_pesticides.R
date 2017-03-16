@@ -9,66 +9,89 @@ library(tidyr)
 library(ggplot2)
 
 # Data Input -------------------------------------------------------------
-PEST06 <- read_excel("~/Desktop/Pesticides/data/PEST06.xlsx", 
-                     sheet = "List")
+PEST06 <- read_excel("~/Documents/GitHub/pest_data/PEST06.xlsx", 
+                               sheet = "List")
 
 #read_excel("W:/lab/CHEMISTRY/Technical Support Projects/Pesticide Compilation Data/data/PEST06.xlsx", 
 #           sheet = "List")
 
-PEST08 <- read_excel("~/Desktop/Pesticides/data/PEST08.xlsx", 
+PEST08 <- read_excel("~/Documents/GitHub/pest_data/PEST08.xlsx", 
                      sheet = "List")
 
-PEST08C6 <- read_excel("~/Desktop/Pesticides/data/PEST08C6.xlsx", 
+PEST08C6 <- read_excel("~/Documents/GitHub/pest_data/PEST08C6.xlsx", 
                      sheet = "List")
 
-Vietnam <- read_excel("~/Desktop/Pesticides/data/Vietnam.xlsx", 
+Vietnam <- read_excel("~/Documents/GitHub/pest_data/Vietnam.xlsx", 
                        sheet = "List")
 
-Indonesia <- read_excel("~/Desktop/Pesticides/data/Indonesia.xlsx", 
+Indonesia <- read_excel("~/Documents/GitHub/pest_data/Indonesia.xlsx", 
                       sheet = "List")
 
-VN_Sub <- read_excel("~/Desktop/Pesticides/data/Vietnam_Sub.xlsx", 
+VN_Sub <- read_excel("~/Documents/GitHub/pest_data/Vietnam_Sub.xlsx", 
                      sheet = "List")
 
-AAA <- read_excel("~/Desktop/Pesticides/data/AAA.xlsx", 
+AAA <- read_excel("~/Documents/GitHub/pest_data/AAA.xlsx", 
                   sheet = "List")
 
-Coles <- read_excel("~/Desktop/Pesticides/data/Coles.xlsx", 
+Coles <- read_excel("~/Documents/GitHub/pest_data/Coles.xlsx", 
                     sheet = "List")
 
-Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub, AAA, Coles)
+NMI <- read_excel("~/Documents/GitHub/pest_data/NMI.xlsx", 
+                    sheet = "List")
+
+ALS <- read_excel("~/Documents/GitHub/pest_data/ALS.xlsx", 
+                  sheet = "List")
+
+FSANZ <- read_excel("~/Documents/GitHub/pest_data/FSANZ.xlsx", 
+                  sheet = "List")
+
+Agrifood <- read_excel("~/Documents/GitHub/pest_data/Agrifood.xlsx", 
+                    sheet = "List")
+
+Freshtest <- read_excel("~/Documents/GitHub/pest_data/Freshtest.xlsx", 
+                       sheet = "List")
+
+Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub, AAA, Coles, NMI, ALS, FSANZ, Freshtest)
 
 Combined$marker <- "X"
 
 Combined <- na.omit(Combined)
 
+#### Vocabulary Input -----------------------------
+vocab <- read_excel("~/Documents/GitHub/Pesticide_Compilation/vocab.xlsx")
+v <- nrow(vocab)
+
 # Data Cleaning ----------------------------------------------------------
 
-for (i in 1:1358) {
-Combined$Name[i] <- sub("2-phenyl phenol|O- phenylphenol|o-Phenylphenol", "2-Phenylphenol", Combined$Name[i])
-Combined$Name[i] <- sub("2 4 D", "2,4-D", Combined$Name[i])
+m <- nrow(Combined)
 
-Combined$Name[i] <- sub("p,p'-DDE|p\"-DDE|DDE - pp", "DDE (p,p)", Combined$Name[i])
-Combined$Name[i] <- sub("p,p'-DDD|p\"-DDD|DDD - pp", "DDD (p,p)", Combined$Name[i])
-Combined$Name[i] <- sub("p,p'-DDT|p\"-DDT|DDT - pp", "DDT (p,p)", Combined$Name[i])
+for (i in 1:m) {
 
-Combined$Name[i] <- sub("o,p'-DDE", "DDE (o,p)", Combined$Name[i])
-Combined$Name[i] <- sub("o,p'-DDD", "DDD (o,p)", Combined$Name[i])
-Combined$Name[i] <- sub("o,p'-DDT", "DDT (o,p)", Combined$Name[i])
+  for (j in 1:v) {
 
-Combined$Name[i] <- sub("o,o'-DDE|o\"-DDE|DDE - oo", "DDE (o,o)", Combined$Name[i])
-Combined$Name[i] <- sub("o,o'-DDD|o\"-DDD|DDD - oo", "DDD (o,o)", Combined$Name[i])
-Combined$Name[i] <- sub("o,o'-DDT|o\"-DDT|DDT - oo", "DDT (o,o)", Combined$Name[i])
+    
+    pref <- as.list(vocab[j,1])
+  
+    list <- (vocab[j,])
 
-Combined$Name[i] <- sub("BHC-gamma (Lindane)", "HCH-gamma (Lindane)", Combined$Name[i])
-Combined$Name[i] <- sub("BHC-alpha", "HCH-alpha", Combined$Name[i])
-Combined$Name[i] <- sub("BHC-beta|Beta HCH|beta-HCH", "HCH-beta", Combined$Name[i])
-Combined$Name[i] <- sub("BHC-delta", "HCH-delta", Combined$Name[i])
-Combined$Name[i] <- sub("BHC - Total|BHC", "HCH", Combined$Name[i])
+    list <- list[colSums(!is.na(list)) > 0]
 
+    n <- ncol(list)
+    
+    if (n==2){
+      check_list <- list[1,2]
+    } else if (n==3) {
+      check_list <- paste(list[1,2],"|",list[1,3], sep="") 
+    } else if (n==4) {
+      check_list <- paste(list[1,2],"|",list[1,3],"|",list[1,4], sep="")
+    } else if (n==5) {
+      check_list <- paste(list[1,2],"|",list[1,3],"|",list[1,4],"|",list[1,5], sep="")
+    }
+  
+    Combined$Name[i] <- sub(check_list, pref, Combined$Name[i])  
+  }
 }
-
-
+  
 
 # Exporting Data -------------------------------------------------------
 
