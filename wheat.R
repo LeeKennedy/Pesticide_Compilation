@@ -54,17 +54,17 @@ PestName <- Combined$Name
 m <- nrow(Combined)
 
 for (i in 1:m) {
-
+  
   for (j in 1:v) {
     
     list <- (vocab[j,])
-
+    
     list <- list[colSums(!is.na(list)) > 0]
     
     pref_rep <- length(list)-1
     
     pref <- rep((vocab[j,1]), pref_rep)
-
+    
     n <- ncol(list)
     
     if (n==2){
