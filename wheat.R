@@ -31,37 +31,12 @@ PEST08 <- read_excel("~/Documents/GitHub/pest_data/PEST08.xlsx",
 PEST08C6 <- read_excel("~/Documents/GitHub/pest_data/PEST08C6.xlsx", 
                      sheet = "List")
 
-Vietnam <- read_excel("~/Documents/GitHub/pest_data/Vietnam.xlsx", 
+
+
+Wheat <- read_excel("~/Documents/GitHub/pest_data/FSANZ_WHEAT.xlsx", 
                        sheet = "List")
 
-Indonesia <- read_excel("~/Documents/GitHub/pest_data/Indonesia.xlsx", 
-                      sheet = "List")
-
-VN_Sub <- read_excel("~/Documents/GitHub/pest_data/Vietnam_Sub.xlsx", 
-                     sheet = "List")
-
-AAA <- read_excel("~/Documents/GitHub/pest_data/AAA.xlsx", 
-                  sheet = "List")
-
-Coles <- read_excel("~/Documents/GitHub/pest_data/Coles.xlsx", 
-                    sheet = "List")
-
-NMI <- read_excel("~/Documents/GitHub/pest_data/NMI.xlsx", 
-                    sheet = "List")
-
-ALS <- read_excel("~/Documents/GitHub/pest_data/ALS.xlsx", 
-                  sheet = "List")
-
-FSANZ <- read_excel("~/Documents/GitHub/pest_data/FSANZ.xlsx", 
-                  sheet = "List")
-
-Agrifood <- read_excel("~/Documents/GitHub/pest_data/Agrifood.xlsx", 
-                    sheet = "List")
-
-Freshtest <- read_excel("~/Documents/GitHub/pest_data/Freshtest.xlsx", 
-                       sheet = "List")
-
-Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub, AAA, Coles, NMI, ALS, FSANZ, Freshtest)
+Combined <- rbind(PEST06, PEST08, PEST08C6, Wheat)
 
 Combined$marker <- "X"
 
@@ -116,4 +91,4 @@ Combined$Name <- PestName2
 
 Wide_Data <- spread(Combined, Screen, marker, fill="")
 
-write_csv(Wide_Data, "pest_set.csv")
+write_csv(Wide_Data, "wheat_set.csv")
