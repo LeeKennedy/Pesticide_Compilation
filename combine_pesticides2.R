@@ -61,7 +61,9 @@ Agrifood <- read_excel("~/Documents/GitHub/pest_data/Agrifood.xlsx",
 Freshtest <- read_excel("~/Documents/GitHub/pest_data/Freshtest.xlsx", 
                        sheet = "List")
 
-Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub, AAA, Coles, NMI, ALS, FSANZ, Freshtest)
+#Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub, AAA, Coles, NMI, ALS, FSANZ, Freshtest)
+
+Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub)
 
 Combined$marker <- "X"
 
@@ -116,4 +118,4 @@ Combined$Name <- PestName2
 
 Wide_Data <- spread(Combined, Screen, marker, fill="")
 
-write_csv(Wide_Data, "pest_set.csv")
+write_csv(Wide_Data, "asia_pest_set.csv")
