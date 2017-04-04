@@ -13,7 +13,7 @@ mgsub <- function(pattern, replacement, x, ...) {
   n=length(pattern)
   result = x
   for (i in 1:n) {
-    result[grep(pattern[i], x, ignore.case = TRUE, ...)] = replacement[i]
+    result[grep(pattern[i], x, ignore.case = FALSE, ...)] = replacement[i]
   }
   return(result)
 }
@@ -61,16 +61,24 @@ Agrifood <- read_excel("~/Documents/GitHub/pest_data/Agrifood.xlsx",
 Freshtest <- read_excel("~/Documents/GitHub/pest_data/Freshtest.xlsx", 
                        sheet = "List")
 
+Nuts <- read_excel("~/Documents/GitHub/pest_data/FSANZ_Nuts.xlsx", 
+                    sheet = "List")
+
 #Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub, AAA, Coles, NMI, ALS, FSANZ, Freshtest)
 
-Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub)
+#Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub)
+
+Combined <- rbind(PEST06, PEST08, PEST08C6,Nuts)
 
 Combined$marker <- "X"
 
 Combined <- na.omit(Combined)
 
+write.csv(Combined, "combined_raw.csv")
+
 #### Vocabulary Input -----------------------------
 vocab <- read_excel("~/Documents/GitHub/Pesticide_Compilation/vocab.xlsx")
+vocab <- vocab[,-1]
 v <- nrow(vocab)
 
 # Data Cleaning ----------------------------------------------------------
@@ -112,10 +120,10 @@ for (i in 1:m) {
   
 PestName2 <- t(data.frame(PestName, stringsAsFactors = FALSE))
 
-Combined$Name <- PestName2
+Combined$Name <- PestName2[1:m]
 
 # Exporting Data -------------------------------------------------------
 
 Wide_Data <- spread(Combined, Screen, marker, fill="")
 
-write_csv(Wide_Data, "asia_pest_set.csv")
+write_csv(Wide_Data, "nut_set.csv")
