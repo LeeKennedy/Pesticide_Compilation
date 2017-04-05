@@ -68,7 +68,7 @@ Nuts <- read_excel("~/Documents/GitHub/pest_data/FSANZ_Nuts.xlsx",
 
 #Combined <- rbind(PEST06, PEST08, PEST08C6, Vietnam, Indonesia, VN_Sub)
 
-Combined <- rbind(PEST06, PEST08, PEST08C6,Nuts)
+Combined <- rbind(PEST06, PEST08, PEST08C6, AAA, Coles, NMI, ALS, Freshtest)
 
 Combined$marker <- "X"
 
@@ -126,4 +126,6 @@ Combined$Name <- PestName2[1:m]
 
 Wide_Data <- spread(Combined, Screen, marker, fill="")
 
-write_csv(Wide_Data, "nut_set.csv")
+Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
+
+write_csv(Wide_Data, "full_pest_set.csv")
