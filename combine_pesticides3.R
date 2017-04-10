@@ -67,7 +67,15 @@ Combined <- na.omit(Combined)
 write.csv(Combined, "combined_raw.csv")
 
 #### Vocabulary Input -----------------------------
-vocab <- read_excel("~/Documents/GitHub/Pesticide_Compilation/vocab.xlsx")
+
+
+if("Windows" %in% Sys.info()['sysname'] == TRUE){ 
+  vocab <- read_excel("H:/GitHub Projects/Pesticide_Compilation/vocab.xlsx")
+} else { 
+  vocab <- read_excel("~/Documents/GitHub/Pesticide_Compilation/vocab.xlsx")
+}
+
+
 vocab <- vocab[,-1]
 v <- nrow(vocab)
 
@@ -116,6 +124,7 @@ Combined$Name <- PestName2[1:m]
 
 Wide_Data <- spread(Combined, Screen, marker, fill="")
 
-Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
+# Optional ordering of wide_data : adjust for included columns ---------
+#Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
 
 write_csv(Wide_Data, "full_pest_set.csv")
