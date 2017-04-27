@@ -127,4 +127,4 @@ Wide_Data <- spread(Combined, Screen, marker, fill="")
 # Optional ordering of wide_data : adjust for included columns ---------
 #Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
 
-write_csv(Wide_Data, "full_pest_set.csv")
+write_csv(Wide_Data, "full_pest_set2.csv")
