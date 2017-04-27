@@ -42,7 +42,7 @@ data_list <- c("PEST08",
                "Freshtest",
                "FSANZ_Nuts" )
 
-data_list <- data_list[c(1:3)]
+data_list <- data_list[c(1:3,7:10,12,13)]
 
 dl <- length(data_list)
 
