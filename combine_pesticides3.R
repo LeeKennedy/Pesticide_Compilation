@@ -43,11 +43,9 @@ data_list <- c("PEST08",
                "Freshtest",
                "FSANZ_Nuts" )
 
-<<<<<<< HEAD
+
 data_list <- data_list[c(1:4)]
-=======
-data_list <- data_list[c(1:3,7:10,12,13)]
->>>>>>> origin/master
+
 
 dl <- length(data_list)
 
@@ -132,8 +130,5 @@ Wide_Data <- spread(Combined, Screen, marker, fill="")
 # Optional ordering of wide_data : adjust for included columns ---------
 #Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
 
-<<<<<<< HEAD
+
 write_csv(Wide_Data, "DTS_pest_set.csv")
-=======
-write_csv(Wide_Data, "full_pest_set2.csv")
->>>>>>> origin/master
