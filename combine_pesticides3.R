@@ -31,6 +31,7 @@ data_list <- c("PEST08",
                "PEST06", 
                "PEST08C6", 
                "PEST00",
+               "Proposed_C6",
                "Vietnam", 
                "Indonesia", 
                "Vietnam_Sub", 
@@ -44,7 +45,7 @@ data_list <- c("PEST08",
                "FSANZ_Nuts" )
 
 
-data_list <- data_list[c(1:4)]
+data_list <- data_list[c(1:5)]
 
 
 dl <- length(data_list)
