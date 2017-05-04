@@ -30,6 +30,7 @@ loc <-"~/Documents/GitHub/pest_data/"
 data_list <- c("PEST08", 
                "PEST06", 
                "PEST08C6", 
+               "PEST00",
                "Vietnam", 
                "Indonesia", 
                "Vietnam_Sub", 
@@ -42,7 +43,7 @@ data_list <- c("PEST08",
                "Freshtest",
                "FSANZ_Nuts" )
 
-data_list <- data_list[c(1:3)]
+data_list <- data_list[c(1:4)]
 
 dl <- length(data_list)
 
@@ -127,4 +128,4 @@ Wide_Data <- spread(Combined, Screen, marker, fill="")
 # Optional ordering of wide_data : adjust for included columns ---------
 #Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
 
-write_csv(Wide_Data, "full_pest_set.csv")
+write_csv(Wide_Data, "DTS_pest_set.csv")
