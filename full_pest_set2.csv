@@ -7,8 +7,7 @@ Name,AAA_C3,AAA_C6,Agrifood (Coles) C6,ALS_C6,Coles,FreshTest_C6,NMI (2017),PEST
 "2,4-D",,,,,X,,,,,
 5-Hydroxyimidacloprid,,,,,,,,,X,X
 Abamectin,,,,X,X,,,,X,
-Acephate,X,X,,X,X,X,X,X,X,X
-Acephate ,,,X,,,,,,,
+Acephate,X,X,X,X,X,X,X,X,X,X
 Acetamiprid,,,,,,,X,,X,
 Acetamiprid-N-desmethyl,,,,,,,,,X,
 Acetochlor,,,,,,,,,X,
@@ -22,8 +21,7 @@ Aldicarb,,X,,,X,,,,X,
 Aldicarb (sulphone & sulphoxide),,,,,,,X,,,
 Aldicarbsulfoxide,,,,,,,,,X,
 Aldoxycarb,,,,,,,,,X,
-Aldrin,X,X,,X,X,X,X,,X,X
-Aldrin ,,,X,,,,,,,
+Aldrin,X,X,X,X,X,X,X,,X,X
 Aldrin and dieldrin,,,,,,,,X,,
 Allidochlor,,,,,,,,,X,
 Ametoctradin,,,,,,,,,X,
@@ -38,8 +36,7 @@ Azamethiphos,,,,,,,,,X,
 Azinphos-ethyl,,,X,X,X,,X,,,
 Azinphos-methyl,X,X,X,X,X,X,X,X,X,X
 Azoxystrobin,,X,,X,X,X,X,X,X,X
-Benalaxyl,X,X,,X,X,X,X,X,X,X
-Benalaxyl ,,,X,,,,,,,
+Benalaxyl,X,X,X,X,X,X,X,X,X,X
 Bendiocarb,,,,,X,,,,X,
 Benfluralin,,,,,,,,,X,
 Benodanil,,,,,,,,,X,
@@ -52,12 +49,9 @@ Benzyladenine,,,,,,,X,,,
 Bifenazate,,,,,,X,,,,
 Bifenazate diazene,,,,,,X,,,,
 Bifenox,,,,,,,,,X,
-Bifenthrin,X,X,,X,X,X,X,X,X,X
-Bifenthrin ,,,X,,,,,,,
-Bioresmethrin,X,X,,X,X,X,X,X,X,X
-Bioresmethrin ,,,X,,,,,,,
-Bitertanol,X,X,,X,X,X,X,X,X,X
-Bitertanol ,,,X,,,,,,,
+Bifenthrin,X,X,X,X,X,X,X,X,X,X
+Bioresmethrin,X,X,X,X,X,X,X,X,X,X
+Bitertanol,X,X,X,X,X,X,X,X,X,X
 Boscalid,,X,,X,X,X,X,X,X,X
 Bromacil,,,,,,,X,,X,
 Bromobutide,,,,,,,,,X,
@@ -65,17 +59,14 @@ Bromophos,,,,,,,,,X,
 Bromophos-ethyl,,,X,X,X,,X,,X,X
 Bromopropylate,,,,,,,,,X,
 Bupirimate,,,X,X,X,,,,X,X
-Buprofezin,X,X,,X,X,X,X,,X,X
-Buprofezin ,,,X,,,,,,,
+Buprofezin,X,X,X,X,X,X,X,,X,X
 Butachlor,,,,,,,,,X,
 Butafenacil,,,,,,,,,X,
 Butamifos,,,,,,,,,X,
 Cadusafos,,,,,X,,,,X,
 Cafenstrole,,,,,,,,,X,
-Captan,X,X,,X,X,X,X,X,X,X
-Captan ,,,X,,,,,,,
-Carbaryl,X,X,,X,X,X,X,X,X,X
-Carbaryl ,,,X,,,,,,,
+Captan,X,X,X,X,X,X,X,X,X,X
+Carbaryl,X,X,X,X,X,X,X,X,X,X
 Carbendazim,,X,,X,,X,X,X,X,X
 Carbendazim / Benomyl,,,,,X,,,,,
 Carbetamide,,,,,,,,,X,
@@ -86,25 +77,21 @@ Carfentrazone-ethyl,,,,,,,X,,X,
 Carpropamid,,,,,,,,,X,
 Chlorantraniliprole,,X,,X,X,X,X,,X,
 Chlorbufam,,,,,,,,,X,
-Chlordane,,,,X,X,,X,,,
+Chlordane,,,X,X,X,,X,,,
 Chlordane-cis,,,,,,,,,X,X
 Chlordane-trans,,,,,,,,,X,X
-Chlordane ,,,X,,,,,,,
-Chlorfenapyr,X,X,,X,X,X,X,,X,X
-Chlorfenapyr ,,,X,,,,,,,
+Chlorfenapyr,X,X,X,X,X,X,X,,X,X
 Chlorfenvinphos,,,,,,,X,X,X,
 Chloridazon,,,,,,,,,X,
 Chlorimuron-ethyl,,,,,,,,,X,
 Chlorobenzilate,,,,,,,,,X,
 Chloropicrin,,,,,X,,,,,
-Chlorothalonil,X,X,,,X,X,X,X,X,X
-Chlorothalonil ,,,X,,,,,,,
+Chlorothalonil,X,X,X,,X,X,X,X,X,X
 Chlorotoluron,,,,,,,,,X,
 Chloroxuron,,,,,,,,,X,
 Chlorpropham,,,,,,,,,X,
-Chlorpyrifos,X,X,,X,X,X,X,X,X,X
+Chlorpyrifos,X,X,X,X,X,X,X,X,X,X
 Chlorpyrifos-methyl,X,X,X,X,X,X,X,X,X,X
-Chlorpyrifos ,,,X,,,,,,,
 Chlorsulfuron,,,,,,,,,X,
 Chlorthal-dimethyl,X,X,X,X,X,X,X,X,X,X
 Chlorthiophos,,,,,,,,,X,
@@ -113,8 +100,7 @@ Chromafenozide,,,,,,,,,X,
 Cinidon-ethyl,,,,,,,,,X,
 Clethodim,,,,,,,,,X,
 Clodinafop-propargyl,,,,,,,,,X,
-Clofentezine,X,X,,X,X,X,X,,X,X
-Clofentezine ,,,X,,,,,,,
+Clofentezine,X,X,X,X,X,X,X,,X,X
 Clomazone,,,,,,,,,X,
 Cloquintocet-mexyl,,,,,,,,,X,
 Clothianidin,,,,,X,,X,,X,
@@ -127,22 +113,17 @@ Cyclanilide,,,,,,,,,X,
 Cycloate,,,,,,,,,X,
 Cyclosulfamuron,,,,,,,,,X,
 Cyflufenamid,,,,,,,,,X,
-Cyfluthrin,X,X,,X,X,X,X,X,X,X
+Cyfluthrin,X,X,X,X,X,X,X,X,X,X
 Cyfluthrin-beta,X,X,X,X,X,X,X,,,
-Cyfluthrin ,,,X,,,,,,,
 Cyhalofop-butyl,,,,,,,,,X,
-Cyhalothrin,X,X,,X,X,X,X,X,X,X
+Cyhalothrin,X,X,X,X,X,X,X,X,X,X
 Cyhalothrin-lambda,X,X,X,,X,X,X,,,
-Cyhalothrin ,,,X,,,,,,,
 Cymoxanil,,,,,,,,,X,
-Cypermethrin,X,X,,X,X,X,X,X,X,X
+Cypermethrin,X,X,X,X,X,X,X,X,X,X
 Cypermethrin-alpha,X,X,X,X,X,X,X,,,
 Cypermethrin-zeta,,,,,X,,,,,
-Cypermethrin ,,,X,,,,,,,
-Cyproconazole,X,X,,X,X,X,X,X,X,X
-Cyproconazole ,,,X,,,,,,,
-Cyprodinil,X,X,,X,X,X,X,X,X,X
-Cyprodinil ,,,X,,,,,,,
+Cyproconazole,X,X,X,X,X,X,X,X,X,X
+Cyprodinil,X,X,X,X,X,X,X,X,X,X
 Cyromazine,,,,,,,,,X,
 Daimuron,,,,,,,,,X,
 Dazomet,,,,,X,,,,,
@@ -151,60 +132,47 @@ Dazomet,,,,,X,,,,,
 "DDE (o,p)",X,X,,,,,X,,X,X
 "DDE (p,p)",X,X,X,X,X,X,X,,X,X
 DDT,X,X,,,,,,X,,
-DDT - Total,,,,,X,,X,,,
-DDT - Total ,,,X,,,,,,,
+DDT - Total,,,X,,X,,X,,,
 "DDT (o,p)",X,X,,X,,,X,,X,X
 "DDT (p,p)",X,X,X,X,X,X,X,,X,X
-Deltamethrin,X,X,,X,X,X,X,X,X,X
-Deltamethrin ,,,X,,,,,,,
-Demeton-s-methyl,,,,X,X,,X,,X,X
-Demeton-s-methyl ,,,X,,,,,,,
+Deltamethrin,X,X,X,X,X,X,X,X,X,X
+Demeton-s-methyl,,,X,X,X,,X,,X,X
 Demeton-s-methylsulfoxide,,,,,,,,,X,
 Desmedipham,,,,,,,,,X,
 Diallate,,,,,,,,,X,
-Diazinon,X,X,,X,X,X,X,X,X,X
-Diazinon ,,,X,,,,,,,
+Diazinon,X,X,X,X,X,X,X,X,X,X
 Dichlobenil,,,,,,,,,X,
 Dichlofenthion,,,,,,,,,X,
-Dichlofluanid,,,,X,X,,,,X,X
-Dichlofluanid ,,,X,,,,,,,
+Dichlofluanid,,,X,X,X,,,,X,X
 Dichlorprop,,,,,X,,,,,
-Dichlorvos,X,X,,X,X,X,X,X,X,X
-Dichlorvos ,,,X,,,,,,,
+Dichlorvos,X,X,X,X,X,X,X,X,X,X
 Diclobutrazol,,,,,,,,,X,
 Diclocymet,,,,,,,,,X,
 Diclofluanid,,,,,,,X,,,
 Diclofop-methyl,,,,,X,,,,X,
-Dicloran,X,X,,X,X,X,X,X,X,X
-Dicloran ,,,X,,,,,,,
+Dicloran,X,X,X,X,X,X,X,X,X,X
 Diclosulam,,,,,,,,,X,
-Dicofol,X,X,,X,X,,X,X,X,X
+Dicofol,X,X,X,X,X,,X,X,X,X
 Dicofol-o.p,,,,,,X,,,,
 Dicofol-p.p,,,,,,X,,,,
-Dicofol ,,,X,,,,,,,
 Dicrotophos,,,,,,,,,X,
 Dicyclanil,,,,,,,,,X,
 Didecyldimethylammonium chloride,,,,,,,,,X,
-Dieldrin,X,X,,X,X,X,X,,X,X
-Dieldrin ,,,X,,,,,,,
+Dieldrin,X,X,X,X,X,X,X,,X,X
 Diethofencarb,,,,,,,,,X,
-Difenoconazole,X,X,,X,X,X,X,X,X,X
-Difenoconazole ,,,X,,,,,,,
+Difenoconazole,X,X,X,X,X,X,X,X,X,X
 Diflubenzuron,,,,,,,,,X,
 Diflufenican,,,,,,,,,X,
 Dimepiperate,,,,,,,,,X,
 Dimethamid,,,,,X,,,,,
 Dimethenamid,,,,,,,,,X,
-Dimethoate,X,X,,X,X,X,X,X,X,X
-Dimethoate ,,,X,,,,,,,
-Dimethomorph,X,X,,X,X,X,X,X,X,X
-Dimethomorph ,,,X,,,,,,,
+Dimethoate,X,X,X,X,X,X,X,X,X,X
+Dimethomorph,X,X,X,X,X,X,X,X,X,X
 Dimethylvinphos,,,,,,,,,X,
 Dioxabenzofos,,,,,,,,,X,
 Dioxathion,,,,,,,X,,X,
 Diphenamid,,,,,,,,,X,
-Diphenylamine,X,X,,X,X,X,X,X,X,X
-Diphenylamine ,,,X,,,,,,,
+Diphenylamine,X,X,X,X,X,X,X,X,X,X
 Diquat,,,,,X,,,,,
 Disulfoton,,,,,X,,X,X,X,
 Dithianon,,X,,,X,X,,,,
@@ -220,14 +188,12 @@ Endosulphan-alpha,X,X,X,X,X,X,X,,X,X
 Endosulphan-beta,X,X,X,X,X,X,X,,X,X
 Endosulphan sulphate,X,X,X,X,X,X,X,,X,X
 Endosulphan Total,X,X,X,X,X,X,X,,,
-Endrin,,,,X,X,X,X,X,X,X
-Endrin ,,,X,,,,,,,
+Endrin,,,X,X,X,X,X,X,X,X
 Endrin ketone,,,,,,X,,,X,X
 EPN,,,,,,,,,X,
 Epoxiconazole,,,,,,,X,,X,
 EPTC,,,,,,,,,X,
-Esfenvalerate,X,X,,X,X,X,X,,,
-Esfenvalerate ,,,X,,,,,,,
+Esfenvalerate,X,X,X,X,X,X,X,,,
 Esprocarb,,,,,,,,,X,
 Ethalfluralin,,,,,,,,,X,
 Ethametsulfuron-methyl,,,,,,,,,X,
@@ -247,22 +213,18 @@ Etrimfos,,,,,,,,,X,
 Famoxadone,,,,,,,,,X,
 Famphur,,,,,,,,,X,
 Fenamidone,,,,,,,,,X,
-Fenamiphos,X,X,,X,X,X,X,X,X,X
-Fenamiphos ,,,X,,,,,,,
-Fenarimol,X,X,,X,X,X,X,X,X,X
-Fenarimol ,,,X,,,,,,,
+Fenamiphos,X,X,X,X,X,X,X,X,X,X
+Fenarimol,X,X,X,X,X,X,X,X,X,X
 Fenbuconazole,,,,,,,,,X,
 Fenchlorphos,,,,,,,X,,X,
 Fenhexamid,,X,,X,X,X,X,X,X,X
-Fenitrothion,X,X,,X,X,X,X,X,X,X
-Fenitrothion ,,,X,,,,,,,
+Fenitrothion,X,X,X,X,X,X,X,X,X,X
 Fenobucarb,,,,,,,,,X,
 Fenothiocarb,,,,,,,,,X,
 Fenoxanil,,,,,,,,,X,
 Fenoxaprop,,,,,,,,,X,
 Fenoxaprop-ethyl,,,,,,,,,X,
-Fenoxycarb,X,X,,X,X,X,X,X,X,X
-Fenoxycarb ,,,X,,,,,,,
+Fenoxycarb,X,X,X,X,X,X,X,X,X,X
 Fenpiclonil,,,,,,,,,X,
 Fenpropathrin,,,,,,,,,X,
 Fenpropidin,,,,,,,,,X,
@@ -270,22 +232,18 @@ Fenpropimorph,,,,,,,,,X,
 Fenpyrazamine,,,,,,,X,,,
 Fenpyroximate,,X,,X,X,X,X,X,X,X
 Fensulfothion,,,,,,,,,X,
-Fenthion,X,X,,X,X,X,X,X,X,X
-Fenthion-oxon,,,,,,,,,X,X
+Fenthion,X,X,X,X,X,X,X,X,X,X
+Fenthion-oxon,,,,,,X,,,X,X
 Fenthion-oxon sulfone,,,,,,X,,,X,X
 Fenthion-oxon sulfoxide,,,,,,X,,,X,X
-Fenthion ,,,X,,,,,,,
 Fenthion ethyl,,,,,,,,,X,
-Fenthion oxon,,,,,,X,,,,
 Fenthion sulfone,X,X,,,,X,,,X,X
 Fenthion sulfoxide,X,X,,,,X,,,X,X
 Fenthion Total,X,X,,,,,,,,
 Fentrazamide,,,,,,,,,X,
-Fenvalerate,X,X,,X,X,X,X,X,X,X
-Fenvalerate ,,,X,,,,,,,
+Fenvalerate,X,X,X,X,X,X,X,X,X,X
 Ferimzone,,,,,,,,,X,
-Fipronil,X,X,,X,X,X,X,X,X,X
-Fipronil ,,,X,,,,,,,
+Fipronil,X,X,X,X,X,X,X,X,X,X
 Fipronil sulfide,,,,,,,,,X,X
 Fipronil sulphenyl,,,,,,X,,,,
 Fipronil sulphone,,,,,,X,,,X,X
@@ -301,8 +259,7 @@ Flubendamide ,,,,,,X,,,,
 Flubendazole,,,,,,,,,X,
 Flubendiamide,,,,X,X,,X,,X,X
 Flucythrinate,,,,,,,,,X,
-Fludioxonil,X,X,,X,X,X,X,X,X,X
-Fludioxonil ,,,X,,,,,,,
+Fludioxonil,X,X,X,X,X,X,X,X,X,X
 Flufenacet,,,,,,,,,X,
 Flumiclorac-pentyl,,,,,,,,,X,
 Flumioxazin,,,,,,,,,X,
@@ -311,14 +268,12 @@ Fluopicolide,,,,,,,,,X,
 Fluopyram,,,,,,,,,X,
 Fluquinconazole,,,,,,,,,X,
 Fluridone,,,,,,,,,X,
-Flusilazole,X,X,,X,X,X,X,X,X,X
-Flusilazole ,,,X,,,,,,,
+Flusilazole,X,X,X,X,X,X,X,X,X,X
 Fluthiacet-methyl,,,,,,,,,X,
 Flutolanil,,,,,,,,,X,
 Flutriafol,,,,,,,,,X,
-Fluvalinate,X,X,,X,X,X,X,,X,X
+Fluvalinate,X,X,X,X,X,X,X,,X,X
 Fluvalinate-tau,X,X,X,X,X,X,X,X,,
-Fluvalinate ,,,X,,,,,,,
 Folpet,,,,,,,,,X,
 Fonofos,,,,,,,,,X,
 Forchlorfenuron,,,,,,,,,X,
@@ -340,34 +295,28 @@ HCH-alpha,X,X,X,X,X,X,X,,X,X
 HCH-beta,X,X,X,X,X,X,X,,X,X
 HCH-delta,X,X,X,X,X,X,X,,X,X
 HCH-gamma (Lindane),X,X,X,X,X,X,X,X,X,X
-Heptachlor,,,,X,X,X,X,X,X,X
-Heptachlor ,,,X,,,,,,,
+Heptachlor,,,X,X,X,X,X,X,X,X
 Heptachlor endo-epoxide,,,,,,,,,X,X
 Heptachlor Epoxide,,,X,X,X,X,X,,,
 Heptachlor exo-epoxide,,,,,,,,,X,X
 Heptenophos,,,,,,,,,X,
 Hexachlorobenzene,X,X,X,X,X,X,X,X,X,X
-Hexaconazole,X,X,,X,X,X,X,X,X,X
-Hexaconazole ,,,X,,,,,,,
+Hexaconazole,X,X,X,X,X,X,X,X,X,X
 Hexaflumuron,,,,,,,,,X,
 Hexazinone,,,,,,,,,X,
-Hexythiazox,X,X,,X,X,X,X,X,X,X
-Hexythiazox ,,,X,,,,,,,
-Imazalil,X,X,,X,X,X,X,X,X,X
-Imazalil ,,,X,,,,,,,
+Hexythiazox,X,X,X,X,X,X,X,X,X,X
+Imazalil,X,X,X,X,X,X,X,X,X,X
 Imazamethabenz-methyl,,,,,,,,,X,
 Imazosulfuron,,,,,,,,,X,
 Imidacloprid,,X,,X,X,X,X,,X,X
 Imidacloprid olefin,,,,,,,,,X,X
 Inabenfide,,,,,,,,,X,
 Indanofan,,,,,,,,,X,
-Indoxacarb,,,,X,X,X,X,X,X,X
-Indoxacarb ,,,X,,,,,,,
+Indoxacarb,,,X,X,X,X,X,X,X,X
 Iodfenphos,,,,,,,,,X,
 Iodosulfuron-methyl,,,,,,,,,X,
 Iprobenfos,,,,,,,,,X,
-Iprodione,X,X,,X,X,X,X,X,X,X
-Iprodione ,,,X,,,,,,,
+Iprodione,X,X,X,X,X,X,X,X,X,X
 Iprovalicarb,,,,,,,,,X,
 Isazofos,,,,,,,,,X,
 Isofenphos,,,,,,,,,X,
@@ -383,11 +332,9 @@ Kresoxim-methyl,X,X,X,X,X,X,X,X,X,X
 Lactofen,,,,,,,,,X,
 Lenacil,,,,,,,,,X,
 Leptophos,,,,,,,,,X,
-Linuron,X,X,,X,X,X,X,X,X,X
-Linuron ,,,X,,,,,,,
+Linuron,X,X,X,X,X,X,X,X,X,X
 Lufenuron,,,,,,,,,X,
-Malathion,X,X,,X,X,X,X,X,X,X
-Malathion ,,,X,,,,,,,
+Malathion,X,X,X,X,X,X,X,X,X,X
 Mandipropamid,,,,,,,X,,X,
 MCPA,,,,,X,,,,,
 Mefenacet,,,,,,,,,X,
@@ -395,18 +342,14 @@ Mefenpyr-diethyl,,,,,,,,,X,
 Mepanipyrim,,,,,,,,,X,
 Mepronil,,,,,,,,,X,
 Mesotrione,,,,,,,,,X,
-Metalaxyl,X,X,,X,X,X,X,X,X,X
-Metalaxyl ,,,X,,,,,,,
+Metalaxyl,X,X,X,X,X,X,X,X,X,X
 Metaldehyde,,,,,X,,,,,
 Metamitron,,,,,,,,,X,
 Metconazole,,,,,,,,,X,
-Methabenzthiazuron,,,,X,X,,X,,X,X
-Methabenzthiazuron ,,,X,,,,,,,
-Methacrifos,,,,X,X,,X,,X,X
-Methacrifos ,,,X,,,,,,,
+Methabenzthiazuron,,,X,X,X,,X,,X,X
+Methacrifos,,,X,X,X,,X,,X,X
 Metham-sodium,X,X,X,X,X,X,X,X,X,X
-Methidathion,X,X,,X,X,X,X,X,X,X
-Methidathion ,,,X,,,,,,,
+Methidathion,X,X,X,X,X,X,X,X,X,X
 Methiocarb,,,,,X,,X,,X,
 Methiocarb sulfone,,,,,,,,,X,
 Methiocarb sulfoxide,,,,,,,,,X,
@@ -421,20 +364,16 @@ Metobromuron,,,,,,,,,X,
 Metolachlor,,,,,,,X,,X,
 Metosulam,,,,,,,,,X,
 Metrafenone,,,,,,,X,,X,
-Metribuzin,X,X,,X,X,X,X,,X,X
-Metribuzin ,,,X,,,,,,,
+Metribuzin,X,X,X,X,X,X,X,,X,X
 Metsulfuron-methyl,,,,,,,,,X,
-Mevinphos,X,X,,X,X,X,X,X,X,X
-Mevinphos ,,,X,,,,,,,
+Mevinphos,X,X,X,X,X,X,X,X,X,X
 Milbemycin A3,,,,,,,,,X,
 Milbemycin A4,,,,,,,,,X,
 Mirex,,,,,,,,,X,
 Molinate,,,,,,,X,,X,
-Monocrotophos,X,X,,X,X,X,X,X,X,X
-Monocrotophos ,,,X,,,,,,,
+Monocrotophos,X,X,X,X,X,X,X,X,X,X
 Monolinuron,,,,,,,,,X,
-Myclobutanil,X,X,,X,X,X,X,X,X,X
-Myclobutanil ,,,X,,,,,,,
+Myclobutanil,X,X,X,X,X,X,X,X,X,X
 Napropamide,,,,,,,X,,X,
 Nicotine,,,,,,,,,X,
 Nitrofen,,,,,,,,,X,
@@ -443,58 +382,44 @@ Nonachlor,,,,,,,X,,,
 Norflurazon,,,,,,,X,,X,
 Novaluron,,,,,,,X,,X,
 Octhilinone,,,,,,,,,X,
-Omethoate,X,X,,X,X,X,X,,X,X
-Omethoate ,,,X,,,,,,,
+Omethoate,X,X,X,X,X,X,X,,X,X
 Oryzalin,,,,,,,,,X,
 Oxabetrinil,,,,,,,,,X,
 Oxadiazon,,,,,,,,,X,
 Oxadixyl,,,,,X,,X,,X,
 Oxamyl,,,,,,,,,X,
 Oxycarboxin,,,,,,,X,,X,
-Oxyfluorfen,X,X,,X,X,X,X,X,X,X
-Oxyfluorfen ,,,X,,,,,,,
-Paclobutrazol,X,X,,X,X,X,X,X,X,X
-Paclobutrazol ,,,X,,,,,,,
+Oxyfluorfen,X,X,X,X,X,X,X,X,X,X
+Paclobutrazol,X,X,X,X,X,X,X,X,X,X
 Paraquat,,,,,X,,,,,
 Parathion,X,X,X,X,X,X,X,,X,X
 Parathion-ethyl,,,,,,,,X,,
 Parathion-methyl,X,X,X,X,X,X,X,X,X,X
-Penconazole,X,X,,X,X,X,X,X,X,X
-Penconazole ,,,X,,,,,,,
+Penconazole,X,X,X,X,X,X,X,X,X,X
 Pencycuron,,,,,,,,,X,
-Pendimethalin,X,X,,X,X,X,X,X,X,X
-Pendimethalin ,,,X,,,,,,,
+Pendimethalin,X,X,X,X,X,X,X,X,X,X
 Pentachlorobenzene,,,,,,,,,X,
 Penthiopyrad,,,,,,,,,X,
-Permethrin,X,X,,X,X,X,X,X,X,X
-Permethrin ,,,X,,,,,,,
+Permethrin,X,X,X,X,X,X,X,X,X,X
 Phenmedipham,,,,,,,,,X,
-Phenothrin,X,X,,X,X,X,X,X,,
-Phenothrin ,,,X,,,,,,,
+Phenothrin,X,X,X,X,X,X,X,X,,
 Phenthoate,,,,,,,,,X,
-Phorate,X,X,,X,X,X,X,X,X,X
-Phorate ,,,X,,,,,,,
+Phorate,X,X,X,X,X,X,X,X,X,X
 Phoratesulfone,,,,,,,,,X,X
 Phoratesulfoxide,,,,,,,,,X,X
 Phosalone,,,,,,,X,,X,
-Phosmet,X,X,,X,X,X,X,X,X,X
-Phosmet ,,,X,,,,,,,
+Phosmet,X,X,X,X,X,X,X,X,X,X
 Phosphamidon,,,,,,,X,,X,
 Phoxim,,,,,,,,,X,
 Picolinafen,,,,,,,,,X,
-Piperonyl butoxide,X,X,,X,X,X,X,X,X,X
-Piperonyl butoxide ,,,X,,,,,,,
+Piperonyl butoxide,X,X,X,X,X,X,X,X,X,X
 Piperophos,,,,,,,,,X,
-Pirimicarb,X,X,,X,X,X,X,X,X,X
-Pirimicarb ,,,X,,,,,,,
+Pirimicarb,X,X,X,X,X,X,X,X,X,X
 Pirimiphos-methyl,X,X,X,X,X,X,X,X,X,X
 Pretilachlor,,,,,,,,,X,
-Prochloraz,X,X,,X,X,X,X,,X,X
-Prochloraz ,,,X,,,,,,,
-Procymidone,X,X,,X,X,X,X,X,X,X
-Procymidone ,,,X,,,,,,,
-Profenofos,X,X,,X,X,X,X,X,X,X
-Profenofos ,,,X,,,,,,,
+Prochloraz,X,X,X,X,X,X,X,,X,X
+Procymidone,X,X,X,X,X,X,X,X,X,X
+Profenofos,X,X,X,X,X,X,X,X,X,X
 Promecarb,,,,,,,,,X,
 Prometryn,,,,,,,,,X,
 Propachlor,,,,,X,,X,,X,
@@ -502,19 +427,16 @@ Propamocarb,,,,,,,X,,X,
 Propanil,,,,,,,,,X,
 Propaphos,,,,,,,,,X,
 Propaquizafop,,,,,,,,,X,
-Propargite,X,X,,X,X,X,X,X,X,X
-Propargite ,,,X,,,,,,,
+Propargite,X,X,X,X,X,X,X,X,X,X
 Propazine,,,,,,,,,X,
 Propetamphos,,,,,,,,,X,
 Propham,,,,,,,,,X,
-Propiconazole,X,X,,X,X,X,X,X,X,X
-Propiconazole ,,,X,,,,,,,
+Propiconazole,X,X,X,X,X,X,X,X,X,X
 Propoxur,,,,,,,,,X,
 Propyzamide,,,,,,,X,,X,
 Proquinazid,,,,,,,,,X,
 Prosulfocarb,,,,X,X,,,,X,
-Prothiofos,X,X,,X,X,X,X,X,X,X
-Prothiofos ,,,X,,,,,,,
+Prothiofos,X,X,X,X,X,X,X,X,X,X
 Pymetrozine,,X,,X,X,X,X,X,X,X
 Pyraclofos,,,,,,,,,X,
 Pyraclostrobin,,X,,X,X,X,X,X,X,X
@@ -527,8 +449,7 @@ Pyridaben,,,,,X,,,,X,
 Pyridaphenthion,,,,,,,,,X,
 Pyrifenox,,,,,,,,,X,
 Pyriftalid,,,,,,,,,X,
-Pyrimethanil,X,X,,X,X,X,X,X,X,X
-Pyrimethanil ,,,X,,,,,,,
+Pyrimethanil,X,X,X,X,X,X,X,X,X,X
 Pyrimidifen,,,,,,,,,X,
 Pyriproxyfen,,,X,X,X,X,X,X,X,X
 Pyroquilon,,,,,,,,,X,
@@ -537,16 +458,14 @@ Quiazlofop,,,,,X,,,,,
 Quinalphos,,,,,,,,,X,
 Quinoclamine,,,,,,,,,X,
 Quinoxyfen,,,,,,,,,X,
-Quintozene,X,X,,X,X,X,X,X,X,X
-Quintozene ,,,X,,,,,,,
+Quintozene,X,X,X,X,X,X,X,X,X,X
 Quizalofop-ethyl,,,,,,,,,X,
 Rimsulfuron,,,,,,,,,X,
 Rotenone,,,,,X,,,,,
 Saflufenacil,,,,,,,,,X,
 Sebuthylazine,,,,,,,,,X,
 Sethoxydim,,,,,,,,,X,
-Simazine,,,,X,X,,X,,X,X
-Simazine ,,,X,,,,,,,
+Simazine,,,X,X,X,,X,,X,X
 Simeconazole,,,,,,,,,X,
 Simetryn,,,,,,,,,X,
 Spinetoram,,X,,X,X,,X,,X,X
@@ -565,11 +484,9 @@ Spirotetramat enol-glucoside,,,,,,,,,X,X
 Spiroxamine,,,,,,,,,X,
 Sulfentrazone,,,,,,,,,X,
 Sulprofos,,,,,,,,,X,
-Tebuconazole,X,X,,X,X,X,X,X,X,X
-Tebuconazole ,,,X,,,,,,,
+Tebuconazole,X,X,X,X,X,X,X,X,X,X
 Tebufenozide,,X,,X,X,X,X,X,X,X
-Tebufenpyrad,X,X,,X,X,X,X,X,X,X
-Tebufenpyrad ,,,X,,,,,,,
+Tebufenpyrad,X,X,X,X,X,X,X,X,X,X
 Tebuthiuron,,,,,,,,,X,
 Tecnazene,,,,,,,,,X,
 Teflubenzuron,,,,,,,,,X,
@@ -577,15 +494,13 @@ Tefluthrin,,,,,,,,,X,
 Temephos,,,,,,,X,,X,
 Tepraloxydim,,,,,,,,,X,
 Terbacil,,,,,,,,,X,
-Terbufos,X,X,,X,X,X,X,X,X,X
-Terbufos ,,,X,,,,,,,
+Terbufos,X,X,X,X,X,X,X,X,X,X
 Terbumeton,,,,,,,,,X,
 Terbuthylazine,,,,,,,,,X,
 Terbutryn,,,,,,,,,X,
 Tetrachlorvinphos,,,,,,,,,X,
 Tetraconazole,,,,,X,,,,X,
-Tetradifon,X,X,,X,X,X,X,X,X,X
-Tetradifon ,,,X,,,,,,,
+Tetradifon,X,X,X,X,X,X,X,X,X,X
 Tetrahydrophthalimide,,,,,,,,,X,
 Thenylchlor,,,,,,,,,X,
 Thiabendazole,,X,,X,X,X,X,X,X,X
@@ -603,16 +518,13 @@ Tolylfluanid,,,,,,,X,,X,
 Tralkoxydim,,,,,,,,,X,
 Transfluthrin,,,,,,,,,X,
 Tri-allate,,,,,,,,,X,
-Triadimefon,X,X,,X,X,X,X,X,X,X
-Triadimefon ,,,X,,,,,,,
-Triadimenol,X,X,,X,X,X,X,X,X,X
-Triadimenol ,,,X,,,,,,,
+Triadimefon,X,X,X,X,X,X,X,X,X,X
+Triadimenol,X,X,X,X,X,X,X,X,X,X
 Triasulfuron,,,,,,,,,X,
 Triazophos,,,,,,,X,,X,
 Tribenuron-methyl,,,,,,,,,X,
 Tribufos,,,,,,,,,X,
-Trichlorfon,X,X,,X,X,X,X,X,X,X
-Trichlorfon ,,,X,,,,,,,
+Trichlorfon,X,X,X,X,X,X,X,X,X,X
 Tricyclazole,,,,,,,,,X,
 Trifloxystrobin,,X,,X,X,X,X,X,X,X
 Trifloxysulfuron-sodium,,,,,,,,,X,
@@ -623,9 +535,7 @@ Triflusulfuron-methyl,,,,,,,,,X,
 Triforine,,,,,,,,,X,
 Triticonazole,,,,,,,,,X,
 Uniconazole-P,,,,,,,,,X,
-Vamidothion,,,,X,X,,X,,X,X
-Vamidothion ,,,X,,,,,,,
-Vinclozolin,X,X,,X,X,X,X,X,X,X
-Vinclozolin ,,,X,,,,,,,
+Vamidothion,,,X,X,X,,X,,X,X
+Vinclozolin,X,X,X,X,X,X,X,X,X,X
 XMC,,,,,,,,,X,
 Zoxamide,,,,,,,,,X,
