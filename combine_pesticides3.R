@@ -31,6 +31,7 @@ data_list <- c("PEST08",
                "PEST06", 
                "PEST08C6", 
                "PEST00",
+               "PEST07",
                "Proposed_C6",
                "Vietnam", 
                "Indonesia", 
@@ -42,10 +43,11 @@ data_list <- c("PEST08",
                "FSANZ", 
                "Agrifood", 
                "Freshtest",
-               "FSANZ_Nuts" )
+               "FSANZ_Nuts",
+               "FSANZ_COFFEE")
 
 
-data_list <- data_list[c(1:5)]
+data_list <- data_list[c(1:6)]
 
 
 dl <- length(data_list)
@@ -68,7 +70,7 @@ Combined$marker <- "X"
 
 Combined <- na.omit(Combined)
 
-write.csv(Combined, "combined_raw.csv")
+#write.csv(Combined, "combined_raw.csv")
 
 #### Vocabulary Input -----------------------------
 
@@ -132,4 +134,4 @@ Wide_Data <- spread(Combined, Screen, marker, fill="")
 #Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
 
 
-write_csv(Wide_Data, "DTS_pest_set.csv")
+write_csv(Wide_Data, "DTS_full_set.csv")
