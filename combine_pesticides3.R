@@ -33,6 +33,7 @@ data_list <- c("PEST08",
                "PEST00",
                "PEST07",
                "Proposed_C6",
+               "Trevor",
                "Vietnam", 
                "Indonesia", 
                "Vietnam_Sub", 
@@ -47,7 +48,7 @@ data_list <- c("PEST08",
                "FSANZ_COFFEE")
 
 
-data_list <- data_list[c(1:6)]
+data_list <- data_list[c(1:7)]
 
 
 dl <- length(data_list)
@@ -134,4 +135,4 @@ Wide_Data <- spread(Combined, Screen, marker, fill="")
 #Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
 
 
-write_csv(Wide_Data, "DTS_full_set.csv")
+#write_csv(Wide_Data, "DTS_full_set.csv")
