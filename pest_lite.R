@@ -21,8 +21,7 @@ mgsub <- function(pattern, replacement, x, ...) {
 # Data Input -------------------------------------------------------------
 
 
-AAA <- read_excel("~/Documents/GitHub/pest_data/Coles.xlsx", 
-                  sheet = "List")
+AAA <- read_excel("~/Desktop/HCH.xlsx", sheet = "List")
 
 
 Combined <- AAA
@@ -31,7 +30,7 @@ Combined$marker <- "X"
 
 Combined <- na.omit(Combined)
 
-write.csv(Combined, "combined_raw.csv")
+#write.csv(Combined, "HCH_combined_raw.csv")
 
 #### Vocabulary Input -----------------------------
 vocab <- read_excel("~/Documents/GitHub/Pesticide_Compilation/vocab_lite.xlsx")
@@ -48,7 +47,7 @@ m <- nrow(Combined)
 for (i in 1:m) {
 
   for (j in 1:v) {
-    
+
     list <- (vocab[j,])
 
     list <- list[colSums(!is.na(list)) > 0]
@@ -69,6 +68,8 @@ for (i in 1:m) {
       check_list <- c(list[1,2],list[1,3],list[1,4],list[1,5])
     } else if (n==6) {
       check_list <- c(list[1,2],list[1,3],list[1,4],list[1,5], list[1,6])
+    } else if (n==7) {
+      check_list <- c(list[1,2],list[1,3],list[1,4],list[1,5], list[1,6], list[1,7])
     }
     
     PestName[i] <- mgsub(check_list, pref, PestName[i])  

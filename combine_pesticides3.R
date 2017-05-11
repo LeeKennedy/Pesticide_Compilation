@@ -71,7 +71,7 @@ Combined$marker <- "X"
 
 Combined <- na.omit(Combined)
 
-#write.csv(Combined, "combined_raw.csv")
+write.csv(Combined, "combined_raw.csv")
 
 #### Vocabulary Input -----------------------------
 
@@ -117,6 +117,10 @@ for (i in 1:m) {
       check_list <- c(list[1,2],list[1,3],list[1,4],list[1,5])
     } else if (n==6) {
       check_list <- c(list[1,2],list[1,3],list[1,4],list[1,5], list[1,6])
+    } else if (n==7) {
+      check_list <- c(list[1,2],list[1,3],list[1,4],list[1,5], list[1,6], list[1,7])
+    } else if (n==8) {
+      check_list <- c(list[1,2],list[1,3],list[1,4],list[1,5], list[1,6], list[1,7], list[1,8])
     }
     
     PestName[i] <- mgsub(check_list, pref, PestName[i])  
@@ -135,4 +139,4 @@ Wide_Data <- spread(Combined, Screen, marker, fill="")
 #Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
 
 
-#write_csv(Wide_Data, "DTS_full_set.csv")
+write_csv(Wide_Data, "DTS_full_set_11052017.csv")
