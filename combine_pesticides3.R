@@ -6,9 +6,10 @@ library(readxl)
 library(readr)
 library(dplyr)
 library(tidyr)
-library(ggplot2)
 
 # Functions --------------------------------------------------------------
+# Used to substitute pesticide names from the vocab dictionary to give one common name.
+
 mgsub <- function(pattern, replacement, x, ...) {
   n=length(pattern)
   result = x
@@ -26,7 +27,7 @@ loc <- "W:/lab/CHEMISTRY/Technical Support Projects/Pesticide Compilation Data/d
 loc <-"~/Documents/GitHub/pest_data/"
 }
 
-
+# Possible pesticide list ------------------------------------------------
 data_list <- c("PEST08", 
                "PEST06", 
                "PEST08C6", 
@@ -43,14 +44,15 @@ data_list <- c("PEST08",
                "ALS", 
                "FSANZ", 
                "Agrifood", 
-               "Freshtest",
+               "Freshtest_2016",
+               "Freshtest_2017",
                "FSANZ_Nuts",
                "FSANZ_COFFEE")
 
+# Select those you wish to compare ---------------------------------------
+data_list <- data_list[c(17:18)]
 
-data_list <- data_list[c(1:7)]
-
-
+# Create a long list of pesticide sets of interest------------------------
 dl <- length(data_list)
 
 i=1
@@ -66,15 +68,17 @@ for (i in 1:dl) {
   }
 }
   
-
+# Add dummy marker -------------------------------------------------------
 Combined$marker <- "X"
 
+# remove NAs -------------------------------------------------------------
 Combined <- na.omit(Combined)
 
+# Save interim data ------------------------------------------------------
+# Can use Pivot Table at this pont but names have not been standardised---
 write.csv(Combined, "combined_raw.csv")
 
 #### Vocabulary Input -----------------------------
-
 
 if("Windows" %in% Sys.info()['sysname'] == TRUE){ 
   vocab <- read_excel("H:/GitHub Projects/Pesticide_Compilation/vocab.xlsx")
@@ -87,6 +91,7 @@ vocab <- vocab[,-1]
 v <- nrow(vocab)
 
 # Data Cleaning ----------------------------------------------------------
+# Cycles through vocab list, comparing to pesticide name------------------
 
 PestName <- Combined$Name
 
@@ -134,9 +139,5 @@ Combined$Name <- PestName2[1:m]
 # Exporting Data -------------------------------------------------------
 
 Wide_Data <- spread(Combined, Screen, marker, fill="")
-
-# Optional ordering of wide_data : adjust for included columns ---------
-#Wide_Data <- Wide_Data[,c(1,9,10,8,7,2:6)]
-
 
 write_csv(Wide_Data, "DTS_full_set_11052017.csv")
