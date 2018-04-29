@@ -47,10 +47,11 @@ data_list <- c("PEST08",
                "Freshtest_2016",
                "Freshtest_2017",
                "FSANZ_Nuts",
-               "FSANZ_COFFEE")
+               "FSANZ_COFFEE",
+               "FSANZ_Milk")
 
 # Select those you wish to compare ---------------------------------------
-data_list <- data_list[c(17:18)]
+data_list <- data_list[c(1:5,21)]
 
 # Create a long list of pesticide sets of interest------------------------
 dl <- length(data_list)
@@ -76,7 +77,7 @@ Combined <- na.omit(Combined)
 
 # Save interim data ------------------------------------------------------
 # Can use Pivot Table at this pont but names have not been standardised---
-write.csv(Combined, "combined_raw.csv")
+write.csv(Combined, "combined_milk.csv")
 
 #### Vocabulary Input -----------------------------
 
@@ -140,4 +141,5 @@ Combined$Name <- PestName2[1:m]
 
 Wide_Data <- spread(Combined, Screen, marker, fill="")
 
-write_csv(Wide_Data, "DTS_full_set_11052017.csv")
+#write_csv(Wide_Data, "DTS_full_set_11052017.csv")
+write_csv(Wide_Data, "FSANZ_Milk_29042018.csv")
