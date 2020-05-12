@@ -1,0 +1,565 @@
+Name,Conventional,PEST06,PEST08,Supermarket
+(E)-Metominostrobin,,,X,
+(E)-Pyriminobac-methyl,,,X,
+(Z)-Metominostrobin,,,X,
+(Z)-Pyriminobac-methyl,,,X,
+2-Phenylphenol,X,X,X,X
+5-Hydroxyimidacloprid,,,X,
+Abamectin,,,X,
+Acephate,X,X,X,X
+Acetamiprid,,,X,X
+Acetamiprid-N-desmethyl,,,X,
+Acetochlor,,,X,
+Acibenzolar acid,,,X,
+Acibenzolar-S-methyl,,,X,
+Acrinathrin,,,X,
+Alachlor,,,X,
+Alanycarb,,,X,
+Aldicarb,,,X,
+Aldicarb (incl sulfoxide & sulfone),,,,X
+Aldicarbsulfoxide,,,X,
+Aldoxycarb,,,X,
+Aldrin,X,,X,X
+Aldrin and dieldrin,,X,,
+Allidochlor,,,X,
+alpha-Cypemmethrin,X,,,
+alpha-HCH,X,,X,
+Ametoctradin,,,X,
+Ametryn,,,X,
+Analyte,X,,,
+Anilofos,,,X,
+Anthraquinone,,,X,
+Atrazine,X,,X,X
+Avermectin-B1a,X,,,
+Azaconazole,,,X,
+Azamethiphos,,,X,
+Azinphos-ethyl,,,,X
+Azinphos-methyl,X,X,X,X
+Azoxystrobin,X,X,X,X
+Benalaxyl,X,X,X,X
+Bendiocarb,,,X,
+Benfluralin,,,X,
+Benodanil,,,X,
+Benomyl,X,,,X
+Benoxacor,,,X,
+Bensulfuron-methyl,,,X,
+Bensulide,,,X,
+Benzalkonium chloride,,,X,
+Benzyladenine,,,,X
+beta-Cyfluthrin,X,,,
+beta-HCH,X,,X,
+Bifenazate (parent),X,,,
+Bifenazate diazine,X,,,
+Bifenox,,,X,
+Bifenthrin,X,X,X,X
+Bioresmethrin,X,X,X,X
+Bitertanol,X,X,X,X
+Boscalid,X,X,X,X
+Bromacil,,,X,X
+Bromobutide,,,X,
+Bromophos,,,X,
+Bromophos-ethyl,,,X,X
+Bromopropylate,,,X,
+Bupirimate,,,X,
+Buprofezin,X,,X,X
+Butachlor,,,X,
+Butafenacil,,,X,
+Butamifos,,,X,
+Cadusafos,,,X,
+Cafenstrole,,,X,
+Captan,X,X,X,X
+Carbaryl,X,X,X,X
+Carbendazim,,X,X,X
+Carbendazim (parent),X,,,
+Carbetamide,,,X,
+Carbofuran,,,X,
+Carbophenothion,,,,X
+Carboxin,,,X,
+Carfentrazone-ethyl,,,X,X
+Carpropamid,,,X,
+Chlorantraniliprole,X,,X,X
+Chlorbufam,,,X,
+Chlordane,,,,X
+Chlordane- Total,X,,,
+Chlordane-cis,X,,X,
+Chlordane-trans,X,,X,
+Chlorfenapyr,X,,X,X
+Chlorfenvinfos,X,,,
+Chlorfenvinphos,,X,X,X
+Chloridazon,,,X,
+Chlorimuron-ethyl,,,X,
+Chlorobenzilate,,,X,
+Chlorothalonil,X,X,X,X
+Chlorotoluron,,,X,
+Chloroxuron,,,X,
+Chlorpropham,X,,X,
+Chlorpyrifos,X,X,X,X
+Chlorpyrifos-methyl,X,X,X,X
+Chlorsulfuron,,,X,
+Chlorthal-dimethyl,X,X,X,X
+Chlorthiophos,,,X,
+Chlozolinate,,,X,
+Chromafenozide,,,X,
+Cinidon-ethyl,,,X,
+Clethodim,,,X,
+Clodinafop-propargyl,,,X,
+Clofentezine,X,,X,X
+Clomazone,,,X,
+Cloquintocet-mexyl,,,X,
+Clothianidin,,,X,X
+Coumaphos,,,X,X
+Coumaphosoxon,,,X,
+Cyanazine,,,X,
+Cyanophos,,,X,
+Cyazofamid,,,X,
+Cyclanilide,,,X,
+Cycloate,,,X,
+Cyclosulfamuron,,,X,
+Cyflufenamid,,,X,
+Cyfluthrin,X,X,X,X
+Cyfluthrin - b.,,,,X
+Cyhalofop-butyl,,,X,
+Cyhalothrin,X,X,X,X
+Cyhalothrin - l.,,,,X
+Cymoxanil,,,X,
+Cypermethrin,X,X,X,X
+Cypermethrin - a.,,,,X
+Cyproconazole,X,X,X,X
+Cyprodinil,X,X,X,X
+Cyromazine,,,X,
+Daimuron,,,X,
+DDD - p.p.,,,,X
+"DDD (o,p)",,,X,X
+DDE - p.p.,,,,X
+"DDE (o,p)",,,X,X
+DDT,,X,,
+DDT - p.p.,,,,X
+DDT - Total,,,,X
+"DDT (o,p)",,,X,X
+delta-HCH,,,X,
+delta-HCH Heptachlor (parent),X,,,
+delta-keto-Endrin,X,,,
+Deltamethrin,X,X,X,X
+Demeton-S,X,,,
+Demeton-S sulfone,X,,,
+Demeton-S sulfoxide,X,,,
+Demeton-s-methyl,,,X,X
+Demeton-s-methylsulfoxide,,,X,
+Desmedipham,,,X,
+Diallate,,,X,
+Diazinon,X,X,X,X
+Dichlobenil,,,X,
+Dichlofenthion,,,X,
+Dichlofluanid,,,X,
+Dichlorvos,X,X,X,X
+Diclobutrazol,,,X,
+Diclocymet,,,X,
+Diclofluanid,,,,X
+Diclofop-methyl,,,X,
+Dicloran,X,X,X,X
+Diclosulam,,,X,
+Dicofol,,X,X,X
+Dicrotophos,,,X,
+Dicyclanil,,,X,
+Didecyldimethylammonium chloride,,,X,
+Dieldrin,X,,X,X
+Diethofencarb,,,X,
+Difenoconazole,X,X,X,X
+Diflubenzuron,,,X,
+Diflufenican,,,X,
+Dimepiperate,,,X,
+Dimethenamid,,,X,
+Dimethoate,X,X,X,X
+Dimethoate (Total),X,,,
+Dimethomorph,X,X,X,X
+Dimethylvinphos,,,X,
+Dioxabenzofos,,,X,
+Dioxathion,,,X,X
+Diphenamid,,,X,
+Diphenylamine,X,X,X,X
+Disulfoton,,X,X,X
+Disulfoton (Parent),X,,,
+Disulfoton sulfone,X,,,
+Disulfoton sulfoxide,X,,,
+Disulfoton Total #,X,,,
+Dithianon,X,,,
+Dithiocarbamates,,,,X
+Dithiopyr,,,X,
+Diuron,,X,X,X
+Diuron (parent),X,,,
+Dodine,,,X,
+Edifenphos,,,X,
+Emamectin,,,,X
+Emamectinbenzoate,,,X,
+Endosulphan,X,X,,
+Endosulphan sulphate,X,,X,X
+Endosulphan Total,,,,X
+Endosulphan-alpha,X,,X,X
+Endosulphan-beta,X,,X,X
+Endrin,X,X,X,X
+Endrin ketone,,,X,
+EPN,,,X,
+Epoxiconazole,,,X,X
+EPTC,,,X,
+Esfenvalerate,X,,,X
+Esprocarb,,,X,
+Ethalfluralin,,,X,
+Ethametsulfuron-methyl,,,X,
+Ethiofencarb,,,X,
+Ethion,,,X,X
+Ethiprole,,,X,
+Ethofumesate,,,X,X
+Ethoprophos,X,X,X,
+Ethoxyquin,,,X,
+Ethoxysulfuron,,,X,
+Ethychlozate,,,X,
+ethyl-Spinosyn J,X,,,
+ethyl-Spinosyn L,X,,,
+Etobenzanid,,,X,
+Etoxazole,X,,X,X
+Etridiazole,,,X,
+Etrimfos,,,X,
+Famoxadone,,,X,
+Famphur,,,X,
+Fenamidone,,,X,
+Fenamiphos,,X,X,X
+Fenamiphos (parent),X,,,
+Fenarimol,X,X,X,X
+Fenbuconazole,,,X,
+Fenchlorphos,,,X,X
+Fenhexamid,X,X,X,X
+Fenitrothion,X,X,X,X
+Fenobucarb,,,X,
+Fenothiocarb,,,X,
+Fenoxanil,,,X,
+Fenoxaprop,,,X,
+Fenoxaprop-ethyl,,,X,
+Fenoxycarb,X,X,X,X
+Fenpiclonil,,,X,
+Fenpropathrin,,,X,
+Fenpropidin,,,X,
+Fenpropimorph,,,X,
+Fenpyrazamine,,,,X
+Fenpyroximate,X,X,X,X
+Fensulfothion,,,X,
+Fenthion,,X,X,X
+Fenthion (parent),X,,,
+Fenthion ethyl,,,X,
+Fenthion sulfone,X,,X,
+Fenthion sulfoxide,X,,X,
+Fenthion-O analogue,X,,,
+Fenthion-O sulfone,X,,,
+Fenthion-O sulfoxide,X,,,
+Fenthion-oxon,,,X,
+Fenthion-oxon sulfone,,,X,
+Fenthion-oxon sulfoxide,,,X,
+Fentrazamide,,,X,
+Fenvalerate,X,X,X,X
+Ferimzone,,,X,
+Fipronil,,X,X,X
+Fipronil (parent),X,,,
+Fipronil sulfenyl,X,,,
+Fipronil sulfide,,,X,
+Fipronil sulfonyl,X,,,
+Fipronil sulphone,,,X,
+Fipronil trifluoromethyl,X,,,
+Flamprop,,,X,
+Flamprop-methyl,,,X,
+Flazasulfuron,,,X,
+Fluacrypyrim,,,X,
+Fluazifop-p-butyl,,,X,
+Fluazinam,,,X,
+Flubendamide,X,,,
+Flubendazole,,,X,
+Flubendiamide,,,X,X
+Flucythrinate,,,X,
+Fludioxonil,X,X,X,X
+Flufenacet,,,X,
+Flumiclorac-pentyl,,,X,
+Flumioxazin,,,X,
+Fluometuron,,,X,
+Fluopicolide,,,X,
+Fluopyram,,,X,
+Fluquinconazole,,,X,
+Fluridone,,,X,
+Flusilazole,X,X,X,X
+Fluthiacet-methyl,,,X,
+Flutolanil,,,X,
+Flutriafol,,,X,
+Fluvalinate,X,,X,X
+Fluvalinate-tau,X,X,,X
+Folpet,,,X,
+Fonofos,,,X,
+Forchlorfenuron,,,X,
+Formetanate hydrochloride,,,X,
+Formothion,,,,X
+Fosthiazate,,,X,
+Fuberidazole,,,X,
+Furalaxyl,,,X,
+Furametpyr,,,X,
+Furathiocarb,,,X,
+Halosulfuron-methyl,,,X,
+Haloxyfop-etotyl,,,X,
+Haloxyfop-methyl,,,X,
+HCH,X,X,,X
+HCH-alpha,,,,X
+HCH-delta,,,,X
+HCH-gamma (Lindane),X,X,X,X
+Heptachlor,,X,X,X
+Heptachlor endo-epoxide,,,X,
+Heptachlor epoxide,X,,,
+Heptachlor exo-epoxide,,,X,
+Heptachlor Total,X,,,
+Heptachlor-Epoxide,,,,X
+Heptenophos,,,X,
+Herbicides,,,,X
+Hexachlorobenzene,,X,X,
+Hexaconazole,X,X,X,X
+Hexaflumuron,,,X,
+Hexazinone,,,X,
+Hexythiazox,X,X,X,X
+Imazalil,X,X,X,X
+Imazamethabenz-methyl,,,X,
+Imazosulfuron,,,X,
+Imidacloprid,,,X,X
+Imidacloprid (parent),X,,,
+Imidacloprid olefin,,,X,
+Inabenfide,,,X,
+Indanofan,,,X,
+Indoxacarb,X,X,X,X
+Iodfenphos,,,X,
+Iodosulfuron-methyl,,,X,
+Iprobenfos,,,X,
+Iprodione,X,X,X,X
+Iprovalicarb,,,X,
+Isazofos,,,X,
+Isofenphos,,,X,
+Isofenphos-methyl,,,X,
+Isoprocarb,,,X,
+Isoprothiolane,,,X,
+Isoproturon,,,X,
+Isopyrazam,,,X,
+Isoxaben,,,,X
+Isoxathion,,,X,
+Karbutilate,,,X,
+Kresoxim-methyl,X,X,X,X
+Lactofen,,,X,
+lambda-Cyhalothrin,X,,,
+Lenacil,,,X,
+Leptophos,,,X,
+Linuron,,X,X,X
+Linuron (parent),X,,,
+Lufenuron,,,X,
+Malathion,X,X,X,X
+Mandipropamid,,,X,X
+Mefenacet,,,X,
+Mefenpyr-diethyl,,,X,
+Mepanipyrim,,,X,
+Mepronil,,,X,
+Mesotrione,,,X,
+Metalaxyl,X,X,X,X
+Metamitron,,,X,
+Metconazole,,,X,
+Methabenzthiazuron,,,X,X
+Methacrifos,,,X,X
+Methamidophos,X,X,X,X
+Methidathion,X,X,X,X
+Methiocarb,,,X,X
+Methiocarb (parent),X,,,
+Methiocarb sulfone,X,,X,
+Methiocarb sulfoxide,X,,X,
+Methiocarb Total #,X,,,
+Methomyl,X,X,X,X
+Methoxychlor,,,X,X
+Methoxyfenozide,,,X,X
+Metobromuron,,,X,
+Metolachlor,,,X,X
+Metosulam,,,X,
+Metrafenone,,,X,X
+Metribuzin,X,,X,X
+Metsulfuron-methyl,,,X,
+Mevinphos,X,X,X,X
+Milbemycin A3,,,X,
+Milbemycin A4,,,X,
+Mirex,,,X,
+Molinate,,,X,X
+Monocrotophos,X,X,X,X
+Monolinuron,,,X,
+Myclobutanil,X,X,X,X
+Napropamide,,,X,X
+Nicotine,,,X,
+Nitrofen,,,X,
+Nitrothal-isopropyl,,,X,
+Nonachlor,,,,X
+Norflurazon,,,X,X
+Novaluron,,,X,X
+Octhilinone,,,X,
+Omethoate,X,,X,X
+op-Dicofol,X,,,
+Oryzalin,,,X,
+Oxabetrinil,,,X,
+Oxadiazon,,,X,
+Oxadixyl,,,X,X
+Oxamyl,,,X,
+Oxycarboxin,,,X,X
+Oxychlordane,X,,,
+Oxyfluorfen,X,X,X,X
+"p""-DDD",,,X,
+"p""-DDE",,,X,
+"p""-DDT",,,X,
+Paclobutrazol,X,X,X,X
+Parathion,X,,X,X
+Parathion-ethyl,,X,,
+Parathion-methyl,X,X,X,X
+Penconazole,X,X,X,X
+Pencycuron,,,X,
+Pendimethalin,X,X,X,X
+Pentachlorobenzene,,,X,
+Penthiopyrad,X,,X,
+Permethrin,X,X,X,X
+Phenmedipham,,,X,
+Phenols,,,,X
+Phenothrin,X,X,,X
+Phenthoate,,,X,
+Phorate,,X,X,X
+Phorate (parent),X,,,
+Phoratesulfone,,,X,
+Phoratesulfoxide,,,X,
+Phosalone,,,X,X
+Phosmet,X,X,X,X
+Phosphamidon,,,X,X
+Phoxim,,,X,
+Picolinafen,,,X,
+Piperonyl butoxide,X,X,X,X
+Piperophos,,,X,
+Pirimicarb,,X,X,X
+Pirimicarb (parent),X,,,
+Pirimiphos-methyl,X,X,X,X
+pp-DDD,X,,,
+pp-DDE,X,,,
+pp-DDT,X,,,
+pp-Dicofol,X,,,
+Pretilachlor,,,X,
+Prochloraz,,,X,X
+Prochloraz (parent),X,,,
+Procymidone,X,X,X,X
+Profenofos,X,X,X,X
+Promecarb,,,X,
+Prometryn,,,X,
+Propachlor,,,X,X
+Propachlor (parent),X,,,
+Propamocarb,,,X,X
+Propanil,,,X,
+Propaphos,,,X,
+Propaquizafop,,,X,
+Propargite,X,X,X,X
+Propazine,,,X,
+Propetamphos,,,X,
+Propham,,,X,
+Propiconazole,X,X,X,X
+Propoxur,,,X,
+Propyzamide,,,X,X
+Proquinazid,,,X,
+Prosulfocarb,,,X,
+Prothiofos,X,X,X,X
+Pymetrozine,X,X,X,X
+Pyraclofos,,,X,
+Pyraclostrobin,X,X,X,X
+Pyraflufen-ethyl,,,X,
+Pyrasulfotole,,,X,
+Pyrazophos,,,X,
+Pyrethrins,X,X,X,X
+Pyributicarb,,,X,
+Pyridaben,,,X,
+Pyridaphenthion,,,X,
+Pyrifenox,,,X,
+Pyriftalid,,,X,
+Pyrimethanil,X,X,X,X
+Pyrimidifen,,,X,
+Pyriproxyfen,X,X,X,X
+Pyroquilon,,,X,
+Pyroxsulam,,,X,
+Quinalphos,,,X,
+Quinoclamine,,,X,
+Quinoxyfen,,,X,
+Quintozene,X,X,X,X
+Quizalofop-ethyl,,,X,
+Rimsulfuron,,,X,
+Saflufenacil,,,X,
+Sebuthylazine,,,X,
+Sethoxydim,,,X,
+Simazine,,,X,X
+Simeconazole,,,X,
+Simetryn,,,X,
+Spinetoram,,,X,X
+Spinosad,,X,X,X
+Spinosyn A,X,,,
+Spinosyn D,X,,,
+Spiromesifen,,,X,
+Spiromesifen enol,,,X,
+Spirotetramat,,X,X,X
+Spirotetramat (parent),X,,,
+Spirotetramat enol,,,X,
+Spirotetramat enol-glucoside,,,X,
+Spirotetramat-keto-hydroxy,,,X,
+Spirotetramat-mono-hydroxy,,,X,
+Spiroxamine,,,X,
+Sulfentrazone,,,X,
+Sulfoxaflor,X,,,
+Sulprofos,,,X,
+Tebuconazole,X,X,X,X
+Tebufenozide,X,X,X,X
+Tebufenpyrad,X,X,X,X
+Tebuthiuron,,,X,
+Tecnazene,,,X,
+Teflubenzuron,,,X,
+Tefluthrin,,,X,
+Temephos,,,X,X
+Tepraloxydim,,,X,
+Terbacil,,,X,
+Terbufos,,X,X,X
+Terbufos (parent),X,,,
+Terbumeton,,,X,
+Terbuthylazine,,,X,
+Terbutryn,,,X,
+Tetrachlorvinphos,,,X,
+Tetraconazole,,,X,
+Tetradifon,X,X,X,X
+Tetrahydrophthalimide,,,X,
+Thenylchlor,,,X,
+Thiabendazole,X,X,X,X
+Thiacloprid,X,X,X,X
+Thiamethoxam,X,X,X,X
+Thiazopyr,,,X,
+Thidiazuron,,,X,
+Thiobencarb,,,X,
+Thiocyclam hydrogen oxalate,,,X,
+Thiometon,,,X,
+Tiadinil,,,X,
+Tolclofos-methyl,X,,X,X
+Tolylfluanid,,,X,X
+Tralkoxydim,,,X,
+Transfluthrin,,,X,
+Tri-allate,,,X,
+Triadimefon,,X,X,X
+Triadimefon (parent),X,,,
+Triadimenol,X,X,X,X
+Triasulfuron,,,X,
+Triazophos,,,X,X
+Tribenuron-methyl,,,X,
+Tribufos,,,X,
+Trichlorfon,X,X,X,X
+Tricyclazole,,,X,
+Trifloxystrobin,X,X,X,X
+Trifloxysulfuron-sodium,,,X,
+Triflumizole,,,X,
+Triflumuron,,,X,
+Trifluralin,,,X,X
+Triflusulfuron-methyl,,,X,
+Triforine,,,X,
+Triticonazole,,,X,
+Uniconazole-P,,,X,
+Vamidothion,,,X,X
+Vinclozolin,X,X,X,X
+XMC,,,X,
+Zoxamide,,,X,
